@@ -9,35 +9,51 @@ h1{
     background-image: url(img/header.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
+    background-size: contain;
     padding : 100px;
     width:100%;
-	position:relative;
-	vertical-align: middle;
 }
-
 ul {
+    font-family: Arial;
     padding:0;
     margin:0;
     list-style-type:none;
+}
+li {
+    margin-left:30px;
+    float:left;
     }
-   li {
-    margin-left:2px;
-    float:left; /*pour IE*/
-    }
-   ul li a {
-    display:block;
+ul li a {
     float:left;   
     width:100px;
-    background-color:#6495ED;
     color:black;
     text-decoration:none;
     text-align:center;
-    padding:5px;
-    border:2px solid;
-    /*pour avoir un effet "outset" avec IE :*/
-    border-color:#DCDCDC #696969 #696969 #DCDCDC;
     }
-   ul li a:hover {
-    background-color:#D3D3D3;
-    border-color:#696969 #DCDCDC #DCDCDC #696969;
+ul li a:hover {
+    color :lightslategray;
+    text-decoration: underline;
     } 
+.container{
+    float: left;
+}
+.image{
+    text-align: center;
+}
+.texte{
+    text-align: center;
+    font-weight:bold;
+}
+.paragraph{
+    text-align: center;
+}
+.row{
+    margin-right: auto;
+    margin-left: auto;
+}
+.bg-gray {
+	background: #efedee;
+}
+.apropos{
+    width: 80%;
+}

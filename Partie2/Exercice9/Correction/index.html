@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Partie 2 - Exercice 9</title>
+</head>
+<body>
+    <form action="" method="get" class="form">
+        <fieldset class="blue1">
+            <legend class="blue1">Votre identité</legend>    
+            <ol>
+                <li>
+                    <label for="genre">Civilité :</label>
+                    <select name="genre">
+                        <option value="Mme">Mme</option>
+                        <option value="Mlle" selected="selected">Mlle</option>
+                        <option value="M">M.</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="lastname">Nom :</label>
+                    <input placeholder="Nom" type="text" id="lastname" name="user_lastname">
+                </li>
+                <li>
+                    <label for="name">Prénom :</label>
+                    <input placeholder="Prénom" type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="mail">Adresse mail :</label>
+                    <input placeholder="Adresse mail" type="email" id="mail" name="user_mail">
+                </li>
+            </ol>
+        </fieldset>
+        <fieldset class="blue2">
+            <legend class="blue2">Adresse de livraison</legend>
+            <ol>
+                <li>
+                    <label for="adress">Adresse :</label>
+                    <textarea placeholder="70 rue des Jacobins 8000 AMIENS" type="text" id="adress" name="user_adress"></textarea>
+                    
+                </li>
+                <li>
+                    <label for="ZIP">Code postal :</label>
+                    <input placeholder="Code postal" type="number" id="ZIP" name="user_ZIP">
+                </li>
+                <li>
+                    <label for="city">Ville :</label>
+                    <input placeholder="Ville" type="text" id="city" name="user_city">
+                </li>
+            </ol>
+        </fieldset>
+        <fieldset class="blue3">
+            <legend class="blue3">Informations de règlement</legend> 
+            <ol>
+                <li>
+                    <label for="type_CB">Type de carte bancaire :</label> <br/>
+                    <input type="radio" id="VISA" name="type_CB"> <label for="type_CB">VISA</label><br/>
+                    <input type="radio" id="mastercard" name="type_CB"> <label for="type_CB">Mastercard</label><br />
+                </li>
+                <li>
+                    <label for="number_CB">Numéro de carte :</label>
+                    <input placeholder="Numéro de carte" type="number" id="number_CB" name="number_CB">
+                </li>
+                <li>
+                    <label for="security_CB">Code de sécurité :</label>
+                    <input placeholder="Code de sécurité" type="number" id="security_CB" name="security_CB">
+                </li>
+                <li>
+                    <label for="user_CB">Nom du titulaire :</label>
+                    <input placeholder="Numéro de carte" type="number" id="user_CB" name="user_CB">
+                </li>
+            </ol>
+            <input type="checkbox" id="save_CB" name="save_CB"> <label for="save_CB">Enregistrer ma carte bancaire</label>
+        </fieldset>
+    </form>
+    <div class="button">
+        <button type="submit">J'achète!</button>
+    </div>
+</body>
+</html>

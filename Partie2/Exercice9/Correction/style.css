@@ -1,0 +1,23 @@
+.form {
+    width: 50%;
+}
+fieldset{
+    text-align: left;
+    margin-left: 10px;
+    caption-side: inherit;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+.button {
+    margin-left: 10px;
+}
+.blue1{
+    background-color: #6DC7D7;
+}
+.blue2{
+    background-color: #6FABDE;
+}
+.blue3{
+    background-color: #586DB3;
+}
+
