@@ -1,0 +1,108 @@
+/* CSS version test grid */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 125px);
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .green {
+    grid-column: 9 / 10;
+    grid-row: 1;
+  }
+  .blue {
+    grid-column: 1 / 10;
+    grid-row: 1;
+  }
+  .red1 {
+    grid-column: 3/10;
+    grid-row: 2;
+  }
+  .orange {
+    grid-column: 3/10;
+    grid-row: 2;
+  }
+  .grey {
+    grid-column: 3/10;
+    grid-row: 2;
+  }
+  .red2 {
+    grid-column: 3/10;
+    grid-row: 3;
+  }
+  .yellow {
+    grid-column: 2/10;
+    grid-row: 3;
+  }
+  .green2 {
+    grid-column: 2/10;
+    grid-row: 3;
+  }
+  .orange2 {
+    grid-column: 2/10;
+    grid-row: 3;
+  }
+  .darkgrey {
+    grid-column: 10;
+    grid-row: 4;
+  }
+
+
+
+/*CSS version 1
+
+.container{
+    float:left;
+}
+.green{
+    width: 1125px;
+    background-color: rgba(82,211,95);
+    color: rgba(82,211,95);
+    height: 30px;
+}
+.blue{
+    width:125px;
+    background-color: rgba(70,123,190);
+    color: rgba(70,123,190);
+    height: 30px;
+}
+.red{
+    width:416.6px;
+    background-color: rgba(218,79,60);
+    color: rgba(218,79,60);
+    height: 50px;
+}
+.orange{
+    width:416.6px;
+    background-color: rgba(218,127,0);
+    color: rgba(218,127,0);
+    height: 50px;
+}
+.grey{
+    width:416.6px;
+    background-color:  rgba(151,165,166);
+    color:  rgba(151,165,166);
+    height: 50px;
+}
+.yellow{
+    width:277.8px;
+    background-color:  rgba(232,159,0);
+    color:  rgba(232,159,0);
+    height: 50px;
+}
+.green2{
+    width:277.8px;
+    background-color:  rgba(62,163,129);
+    color:  rgba(62,163,129);
+    height: 50px;
+}
+.orange2{
+    width:277.8px;
+    background-color:  rgb(199, 82, 0);
+    color:  rgb(199, 82, 0);
+    height: 50px;
+}
+.darkgrey{
+    width: 1250px;
+    height: 120px;
+    background-color: rgb(48, 61, 82);
+    color: rgb(48, 61, 82);
+}*/

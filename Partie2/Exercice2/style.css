@@ -1,0 +1,16 @@
+.red { 
+    color:red;
+}
+.green { 
+    color:green;
+}
+#rosebud { 
+    font-style: italic;
+}
+.bold { 
+    font-weight: bold;
+    text-align: center;
+}
+h1 { 
+    text-align: center;
+}
