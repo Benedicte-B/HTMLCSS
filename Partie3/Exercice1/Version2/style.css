@@ -1,27 +1,44 @@
-
-
-/* ===========================
---- Intro
-============================ */
-
-.intro {
-	width:100%;
-	position:relative;
-	background: url(img/header.jpg) no-repeat  top center;
+header
+{
+    width: 100%;
+    height: 600px;
+    background: url("img/header2.jpg") no-repeat center;
     background-size: cover;
-	vertical-align: middle;
     text-align: center;
-    flex: left;
-    height: 500px;
+    vertical-align: middle;
 }
-.navigation ul {
-    list-style-type: none;
-    flex: left;
+h1{
+    font-family: Arial;
+    font-size: 60px;
+    text-align: center;
+    padding : 300px;
 }
-    
-.navigation {
-    display: inline-block;
+.navigation{
+    text-align: center;
 }
+ul {
+    font-family: Arial;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+li {
+    margin-left:30px;
+    float:left;
+    }
+ul li a {
+    float:left;   
+    width:100px;
+    color:black;
+    text-decoration:none;
+    text-align:center;
+    }
+ul li a:hover {
+    color :lightslategray;
+    text-decoration: underline;
+    }
+
+
     
 .navigation a::after {
     display: inline-block;
@@ -29,4 +46,9 @@
     font-size: 80%;
     font-weight: bold;
     padding: 0 3px;
-} 
+}
+
+/*
+.navigation {
+    display: inline-block;
+}*/

@@ -1,3 +1,6 @@
+/* CSS version float */
+/* float : si tu as de la place au dessus tu t'y place*/
+/*
 .container{
     float:left;
 }
@@ -54,4 +57,59 @@
     height: 120px;
     background-color: rgb(48, 61, 82);
     color: rgb(48, 61, 82);
+}*/
+/* Correction :*/
+.green{
+    width: 80%;
+    background-color: rgba(82,211,95);
+    height: 30px;
+    float:left;
+}
+.blue{
+    width:20%;
+    background-color: rgba(70,123,190);
+    height: 30px;
+    float:left;
+}
+.red{
+    width:33.3%;
+    background-color: rgba(218,79,60);
+    height: 50px;
+    float:left;
+}
+.orange{
+    width:33.3%;
+    background-color: rgba(218,127,0);
+    height: 50px;
+    float:left;
+}
+.grey{
+    width:33.3%;
+    background-color:  rgba(151,165,166);
+    height: 50px;
+    float:left;
+}
+.yellow{
+    width:22.2%;
+    background-color:  rgba(232,159,0);
+    height: 50px;
+    float:left;
+}
+.green2{
+    width:22.2%;
+    background-color:  rgba(62,163,129);
+    height: 50px;
+    float:left;
+}
+.orange2{
+    width:22.2%;
+    background-color:  rgb(199, 82, 0);
+    height: 50px;
+    float:left;
+}
+.darkgrey{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(48, 61, 82);
+    float:left;
 }

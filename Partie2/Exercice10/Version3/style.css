@@ -1,76 +1,66 @@
 /* CSS version grid */
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(10, 125px);
+    grid-template-columns: repeat(10, 158px);
     grid-template-rows: 30px, 50px, 50px, 120px;
   }
   .green {
     grid-column: 1 / 10;
     grid-row: 1;
     background-color: rgba(82,211,95);
-    color: rgba(82,211,95);
     height: 30px;
   }
   .blue {
     grid-column: 8 / 10 ;
     grid-row: 1;
     background-color: rgba(70,123,190);
-    color: rgba(70,123,190);
     height: 30px;
   }
   .red1 {
     grid-column: 1 / 10;
     grid-row: 2;
     background-color: rgba(218,79,60);
-    color: rgba(218,79,60);
     height: 50px;
   }
   .orange {
     grid-column: 4 / 10;
     grid-row: 2;
     background-color: rgba(218,127,0);
-    color: rgba(218,127,0);
     height: 50px;
   }
   .grey {
     grid-column: 7 / 10;
     grid-row: 2;
     background-color:  rgba(151,165,166);
-    color:  rgba(151,165,166);
     height: 50px;
   }
   .red2 {
     grid-column: 1 / 10;
     grid-row: 3;
     background-color: rgba(218,79,60);
-    color: rgba(218,79,60);
     height: 50px;
   }
   .yellow {
     grid-column: 3/10;
     grid-row: 3;
     background-color:  rgba(232,159,0);
-    color:  rgba(232,159,0);
     height: 50px;
   }
   .green2 {
     grid-column: 6/10;
     grid-row: 3;
     background-color:  rgba(62,163,129);
-    color:  rgba(62,163,129);
     height: 50px;
   }
   .orange2 {
     grid-column: 8/10;
     grid-row: 3;
     background-color:  rgb(199, 82, 0);
-    color:  rgb(199, 82, 0);
     height: 50px;
   }
   .darkgrey {
     grid-column: 1 / 10;
     grid-row: 4;
     background-color: rgb(48, 61, 82);
-    color: rgb(48, 61, 82);
     height: 120px;
   }

@@ -8,25 +8,57 @@
     <title>Partie 2 - Exercice 10</title>
 </head>
 <body>
+<!-- HTML version flex-->
+<!-- Flex : mise en forme de balise parent-enfant direct 
+Balise "container" : parent
+-->
+<!--
     <div class="container">
-        <div class="green">1</div>
-        <div class="blue">2</div>
+        <div class="green"></div>
+        <div class="blue"></div>
     </div>
     <div class="container">
-        <div class="red">3</div>
-        <div class="orange">4</div>
-        <div class="grey">5</div>
+        <div class="red"></div>
+        <div class="orange"></div>
+        <div class="grey"></div>
     </div>
     <div class="container">
-        <div class="red">6</div>
-        <div class="yellow">7</div>
-        <div class="green2">8</div>
-        <div class="orange2">9</div>
+        <div class="red"></div>
+        <div class="yellow"></div>
+        <div class="green2"></div>
+        <div class="orange2"></div>
     </div>
     <div class="container">
-        <div class="darkgrey">10</div>
+        <div class="darkgrey"></div>
+    </div>-->
+<!--Correction HTML version flex-->
+    <div class="container">
+        <!--Première ligne-->
+            <div class="ligne">
+                <div class="green"></div>
+                <div class="blue"> </div>
+            </div>
+        <!--Deuxième ligne-->
+            <div class="ligne">
+                <!--Bloc rouge-->
+                <div class="red"></div>
+                    <!--5 blocs couleurs-->
+                    <div class="fiveblocs">
+                        <!--2 blocs du dessus-->
+                        <div class="bloc">
+                            <div class="orange"></div>
+                            <div class="grey"></div>
+                        </div>
+                        <!--3 blocs du dessous-->
+                        <div class="bloc">
+                            <div class="yellow"></div>
+                            <div class="green2"></div>
+                            <div class="orange2"></div>
+                        </div>
+                    </div> 
+                </div>
+            <!--Dernière ligne-->
+            <div class="darkgrey"></div>
     </div>
-
-
 </body>
 </html>
