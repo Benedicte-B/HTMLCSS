@@ -1,0 +1,335 @@
+.calculator1 {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 48px 48px 48px 48px 48px 48px 48px 48px 48px 48px;
+    grid-template-rows: 40px;
+  }
+.calculator1 p{
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+.calculator2 {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 48px 48px 48px 48px 48px 48px 48px 48px 48px 48px;
+    grid-template-rows: auto;
+  }
+.calculator2 p{
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+.calculator3 {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-template-rows: 1fr;
+  }
+.calculator3 p{
+    text-align: right;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-weight:500;
+}
+.calculator4 {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px;
+    grid-template-rows: auto;
+  }
+.calculator4 p{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+.calculator5 {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-template-rows: auto;
+    
+  }
+.calculator5 p{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+.calculatrice{
+    grid-column: 1/8;
+    grid-row: 1;
+    background-color:rgb(177, 178, 177);
+    text-align: left;
+    justify-content: center;
+}
+.calculatrice p{
+    margin-left: 20px;
+}
+.reduire{
+    grid-column: 8;
+    grid-row: 1;
+    background-color:rgb(177, 178, 177);
+    text-align: center;
+    justify-content: center;
+}
+.agrandir{
+    grid-column: 9;
+    grid-row: 1;
+    background-color: rgb(177, 178, 177);
+    text-align: center;
+    justify-content: center;
+}
+.fermer{
+    grid-column: 10;
+    grid-row: 1;
+    background-color: rgb(177, 178, 177);
+    text-align: center;
+    justify-content: center;
+}
+.burger{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(177, 178, 177);
+    text-align: center;
+    justify-content: center;
+}
+.standard{
+    grid-column: 2/5;
+    grid-row: 2;
+    background-color: rgb(177, 178, 177);
+    text-align: left;
+    justify-content: center;
+}
+.standard p{
+    font-weight: 400;
+}
+.carre{
+    grid-column: 5/10;
+    grid-row: 2;
+    background-color: rgb(177, 178, 177);
+    text-align: left;
+    justify-content: center;
+}
+.horloge{
+    grid-column: 10;
+    grid-row: 2;
+    background-color: rgb(177, 178, 177);
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.zero{
+    grid-column: 1/5;
+    grid-row: 3;
+    background-color: rgb(177, 178, 177);
+    text-align: right;
+}
+.zero p{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.mc{
+    grid-column: 1;
+    grid-row: 4;
+    background-color:  rgb(177, 178, 177);
+}
+.mr{
+    grid-column: 2;
+    grid-row: 4;
+    background-color:  rgb(177, 178, 177);
+}
+.mplus
+{
+    grid-column: 3;
+    grid-row: 4;
+    background-color:  rgb(177, 178, 177);
+}
+.mmoins
+{
+    grid-column: 4;
+    grid-row: 4;
+    background-color:  rgb(177, 178, 177);
+}
+.ms{
+    grid-column: 5;
+    grid-row: 4;
+    background-color: rgb(177, 178, 177);
+}
+.mexposant{
+    grid-column: 6;
+    grid-row: 4;
+    background-color:  rgb(177, 178, 177);
+}
+.pourcentage{
+    grid-column: 1;
+    grid-row: 5;
+    background-color:rgb(208, 208, 208);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.ce{
+    grid-column: 2;
+    grid-row: 5;
+    background-color: rgb(208, 208, 208);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.c{
+    grid-column: 3;
+    grid-row: 5;
+    background-color:rgb(208, 208, 208);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.fleche{
+    grid-column: 4;
+    grid-row: 5;
+    background-color: rgb(208, 208, 208);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.unx{
+    grid-column: 1;
+    grid-row: 6;
+    background-color: rgb(208, 208, 208);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.x2{
+    grid-column: 2;
+    grid-row: 6;
+    background-color: rgb(208, 208, 208);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.racine{
+    grid-column: 3;
+    grid-row: 6;
+    background-color: rgb(208, 208, 208);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.diviser{
+    grid-column: 4;
+    grid-row: 6;
+    background-color: rgb(208, 208, 208);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.sept{
+    grid-column: 1;
+    grid-row: 7;
+    background-color:rgb(239, 239, 239);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.huit{
+    grid-column: 2;
+    grid-row: 7;
+    background-color: rgb(239, 239, 239);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.neuf{
+    grid-column: 3;
+    grid-row: 7;
+    background-color: rgb(239, 239, 239);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.fois{
+    grid-column: 4;
+    grid-row: 7;
+    background-color: rgb(208, 208, 208);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.quatre{
+    grid-column: 1;
+    grid-row: 8;
+    background-color: rgb(239, 239, 239);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.cinq{
+    grid-column: 2;
+    grid-row: 8;
+    background-color: rgb(239, 239, 239);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.six{
+    grid-column: 3;
+    grid-row: 8;
+    background-color:rgb(239, 239, 239);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.moins{
+    grid-column: 4;
+    grid-row: 8;
+    background-color: rgb(208, 208, 208);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.un{
+    grid-column: 1;
+    grid-row: 9;
+    background-color:rgb(239, 239, 239);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.deux{
+    grid-column: 2;
+    grid-row: 9;
+    background-color:rgb(239, 239, 239);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.trois{
+    grid-column: 3;
+    grid-row: 9;
+    background-color: rgb(239, 239, 239);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.plus{
+    grid-column: 4;
+    grid-row: 9;
+    background-color:rgb(208, 208, 208);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.plusmoins{
+    grid-column: 1;
+    grid-row: 10;
+    background-color: rgb(239, 239, 239);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.zero2{
+    grid-column: 2;
+    grid-row: 10;
+    background-color:rgb(239, 239, 239);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.virgule{
+    grid-column: 3;
+    grid-row: 10;
+    background-color: rgb(239, 239, 239);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.egal{
+    grid-column: 4;
+    grid-row: 10;
+    background-color: rgb(99, 143, 192);
+    border-top: 2px solid rgb(176, 176, 176);
+    border-left: 2px solid rgb(176, 176, 176);
+}
+.grey p{
+    color:rgb(134, 137, 140);
+}
