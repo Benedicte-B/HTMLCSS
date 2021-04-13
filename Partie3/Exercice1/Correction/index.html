@@ -6,20 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d38cea82af.js" crossorigin="anonymous"></script>
     <title>Voyage & Co</title>
 </head>
 <!-- Section : NAVIGATION -->
-<nav class="navbar">
+<nav>
     <div class="container">
         <div class="navigation">
-            <ul class="menu">
+            <ul class="navbar">
                 <li class="active"><a href="#accueil">ACCUEIL</a></li>
                 <li><a href="#destinations">DESTINATIONS</a></li>
                 <li><a href="#reservations">RESERVATIONS</a></li>
                 <li><a href="#contact">CONTACT</a></li>
-                <li><input class="search" type="search" id="search" name="q"
-                    aria-label="Search through site content">
-              <button class="button">Rechercher</button></li>
+                <li>
+                    <form action="" method="">
+                        <input type="text" name="search" placeholder="Rechercher">
+                        <input type="submit" name="buttonSearch" value="Rechercher">
+                    </form>
+                </li>
+                <li><i class="fas fa-bars" id="iconBurger"></i></li>
             </ul> 
         </div>
     </div>

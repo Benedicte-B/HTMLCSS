@@ -1,0 +1,120 @@
+
+@font-face{
+    font-family: 'fontParagraph';
+    src: url('../font/InitialsWithACurl.ttf');
+}
+
+/* header */
+
+#headerHomepage{
+    display: flex;
+    height: 360px;
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    background-position: 24% 40%;
+    justify-content: center;
+    align-items: center;
+}
+#titleHomepage{
+    font-size: 5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+
+#navbar{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+li > a{
+    text-decoration:none; 
+    color: black;
+}
+li > a:hover{
+    color: red; 
+}
+#iconBurger{
+    color:red;
+    font-size: 40px;
+    display:none;
+}
+
+/* Paragraphe de présentation */
+
+#presentation{
+    background-color: brown;
+    width: 70%;
+    padding: 35px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+/* Bloc d'articles */
+
+#blockLine{
+    display: flex;
+    margin: 0;
+    width: auto;
+}
+.imgArticle{
+    width: 50%;
+}
+.block{
+    text-align: center;
+    margin: 15px 10px;
+    background-color: rgb(127, 150, 120, 0.5);
+    padding: 20px;
+}
+input[type="text"]{
+    background-color: green;
+    color: blue;
+    font-size: 25px;
+    border-radius: 50px 0 0 50px;
+    padding-left: 15px;
+}
+input[type="text"]:focus{
+    background-color: blue;
+    color: green;
+}
+input[type="text"]::placeholder{
+    color:red;
+}
+
+input[type="submit"]{
+    font-size: 25px;
+    background-color: blue;
+    color:white;
+    border-radius: 0 50px 50px 0;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color:blue;
+    font-size:60px;
+    
+}
+
+@media screen and (max-width: 990px){
+    #blockLine{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    li > a, form{
+        display:none;
+    }
+    #iconBurger{
+        display: block;
+    }
+    #titleHomepage{
+        font-size: 2.5em;
+        color: blue;
+    }
+    #headerHomepage{
+        height: 200px;
+    }
+}

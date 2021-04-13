@@ -9,14 +9,7 @@
     font-family: 'Roboto-Light';
     src: url(assets/font/Roboto-Light.ttf);
 }*/
-/* === Background == */
-.bg-white {
-	background: #fff;
-}
-/*
-.bg-gray {
-	background: red;
-}*/
+
 
 #header{
     display: flex;
@@ -39,12 +32,12 @@ h1 {
     align-items: center;
     background-color:rgb(123, 181, 221);
 }
-
 ul {
     display: flex;
     list-style-type: none;
+    justify-content: space-around;
 }
-li a{
+li > a{
     display: flex;
     font-size: 12px;
     font-family: Roboto;
@@ -55,14 +48,20 @@ li a{
     margin: 30px;
     text-decoration: none;
 }
-
+.active a{
+    font-weight: 900;
+}
 a:hover,
 a:focus {
     text-decoration: none;
     color: #444;
     font-weight: 900;
 }
-
+#iconBurger{
+    color: red;
+    font-size: 40px;
+    display: none;
+}
 .search{
     display: flex;
     justify-content: center;
@@ -124,7 +123,7 @@ a:focus {
     margin-bottom: 20px;
 }
 
-.container{
+/*.container{
     display : flex; 
     flex-direction: column; /* Pour que nos lignes soient placées en colonnes*/
 }
@@ -199,16 +198,12 @@ a:focus {
     grid-column: 4;
     grid-row: 3;
 }
+@media screen and (max-width:480px){
 
-/*
-@media(max-width:780px) {
-
-    .navbar {
-        padding: 20px 0;
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
+#iconBurger{
+    display: block;
+}
+.navbar {
+    display:none;
+}
+}
