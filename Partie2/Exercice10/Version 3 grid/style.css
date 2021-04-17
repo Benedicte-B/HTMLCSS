@@ -29,6 +29,7 @@
     grid-row: 2;
     background-color:  rgba(151,165,166);
   }
+
   .yellow {
     grid-column: 8/12;
     grid-row: 3;
