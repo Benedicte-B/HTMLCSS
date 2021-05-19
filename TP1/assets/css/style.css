@@ -1,0 +1,190 @@
+/*============GRID============*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 28vh 28vh 28vh 16vh;
+}
+.row1col1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh;
+}
+.row1col2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.row1col3{
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row2col1{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: #EA3F2B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row2col2{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content :flex-end;
+    align-items: center;
+}
+.row2col3{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    padding : 2vh 10vh 0 2vh;
+}
+.row2col4{
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+    background-color:#7B5EAE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 0 5vh;
+    text-align: center;
+    color : white;
+}
+.row3col1{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row3col2{
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    background-color:#81A9A8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row4col1{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    background-color:#32CDF2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row4col2{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row4col3{
+    grid-column: 3 / 5;
+    grid-row: 4 / 5;
+    background-color:#212121;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding : 5vh;
+    color : white;
+}
+
+/*============IMAGES============*/
+.phonePhoto{
+    max-height : 25vh;
+}
+.keyboardPhoto{
+    max-width : 15vw;
+}
+.computerPhoto{
+    max-height : 15vh;
+}
+.discPhoto{
+    max-width : 12vw;
+}
+.gamePhoto{
+    max-width : 10vw;
+}
+.tabletPhoto{
+    max-height : 17vh;
+    display: flex;
+    justify-content:flex-end;
+    align-items: end;
+}
+.TVPhoto{
+    max-height : 13vh;
+}
+.twitterIcone{
+    max-height : 4vh;
+};
+
+/*============BACKGROUND COLOR============*/
+.bestChoice{
+    background-color:#F94F43;
+}
+
+
+.learnMore{
+    background-color:#FEBD0E;
+    width : 8vw;
+    border-radius: 20px;
+}
+.popular{
+    background-color:#6BBF22;
+    height : 2vh;
+    width : 4vw;
+    color : white; 
+    font-size : 0.8em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* .bgPurple{
+    background-color: #6D509D;
+    border-radius: 50%;
+    height: 30vh;
+    width : 30vw;
+} */
+i{
+    color : #FDC00F;
+}
+
+.row3col2line2{
+    color : white; 
+    text-align: center;
+}
+.row4col2line2{
+    padding-top : 1vh;
+    text-align: center;
+}
+.row4col1line1{
+    text-align: center;
+    color : white;
+}
+.row4col3line1{
+    text-align: center;
+    color : white;
+    margin-left : 5vw;
+    text-align: left;
+}
+}
